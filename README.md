@@ -33,7 +33,7 @@ Le fichier `index.html` suit une structure sémantique classique :
 - La **galerie de photos** utilise **CSS Grid**, pour organiser les photos en colonnes et lignes (4 colonnes sur ordinateur, adapté ensuite en responsive).
 - Des **media queries** adaptent l'affichage sur tablette et mobile : le nombre de colonnes de la galerie change, et le nombre de photos affichées est réduit sur mobile pour coller à la maquette.
 
-## JavaScript (bonus)
+## JavaScript
 
 En plus du rendu demandé, j'ai ajouté un petit script JavaScript pour rendre le menu de filtres interactif : cliquer sur une catégorie affiche uniquement les photos correspondantes dans la galerie, pour une meilleure visualisation du projet.
 
