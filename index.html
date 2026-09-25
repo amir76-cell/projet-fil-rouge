@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solène Avril - Photographe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0cb6aedcd3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- En-tête du site : logo + réseaux sociaux -->
+    <header>
+      <p class="logo">SOLÈNE AVRIL.</p>
+      <div class="reseaux">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-regular fa-circle"></i></a>
+      </div>
+    </header>
+    <main>
+      <!-- Section d'introduction : titre + description + filtres -->
+      <section class="intro">
+        <h1>
+          Hello,<br />Je suis photographe d'art,<br /><span
+            >créative &amp; engagée.</span
+          >
+        </h1>
+        <p class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis in
+          voluptatem culpa aliquam ab excepturi quis aspernatur illo rem iste
+          aliquid ullam accusantium, alias perferendis vero laudantium harum
+          dicta placeat recusandae doloremque? Nobis pariatur voluptatem dolorem
+          harum nihil fuga magnam?
+        </p>
+        <nav class="filtres">
+          <a href="#" data-filtre="nature">NATURE</a>
+          <a href="#" data-filtre="portrait" class="actif">PORTRAIT</a>
+          <a href="#" data-filtre="art">ART</a>
+          <a href="#" data-filtre="urbain">URBAIN</a>
+          <a href="#" data-filtre="animaux">ANIMAUX</a>
+        </nav>
+      </section>
+      <!-- Galerie de photos filtrable -->
+
+      <section class="galerie">
+        <article class="photo" data-categorie="urbain">
+          <img
+            src="https://picsum.photos/400/400?random=1"
+            alt="Route en forêt"
+          />
+        </article>
+        <article class="photo" data-categorie="nature">
+          <img
+            src="https://picsum.photos/400/400?random=2"
+            alt="Intérieur d'église"
+          />
+        </article>
+        <article class="photo" data-categorie="portrait">
+          <img src="https://picsum.photos/400/400?random=3" alt="Mer calme" />
+        </article>
+        <article class="photo" data-categorie="nature">
+          <img
+            src="https://picsum.photos/400/400?random=4"
+            alt="Mer brumeuse"
+          />
+        </article>
+        <article class="photo" data-categorie="urbain">
+          <img
+            src="https://picsum.photos/400/400?random=5"
+            alt="Parapluie rouge la nuit"
+          />
+        </article>
+        <article class="photo" data-categorie="nature">
+          <img src="https://picsum.photos/400/400?random=6" alt="Ciel orangé" />
+        </article>
+        <article class="photo" data-categorie="nature">
+          <img
+            src="https://picsum.photos/400/400?random=7"
+            alt="Montagnes enneigées"
+          />
+        </article>
+        <article class="photo" data-categorie="nature">
+          <img
+            src="https://picsum.photos/400/400?random=8"
+            alt="Paysage vert et brumeux"
+          />
+        </article>
+        <article class="photo" data-categorie="art">
+          <img
+            src="https://picsum.photos/400/400?random=9"
+            alt="Tasse de café sur bureau"
+          />
+        </article>
+        <article class="photo" data-categorie="art">
+          <img
+            src="https://picsum.photos/400/400?random=10"
+            alt="Texture galets"
+          />
+        </article>
+        <article class="photo" data-categorie="urbain">
+          <img
+            src="https://picsum.photos/400/400?random=11"
+            alt="Plage et mer"
+          />
+        </article>
+        <article class="photo" data-categorie="animaux">
+          <img
+            src="https://picsum.photos/400/400?random=12"
+            alt="Mains tenant des objets"
+          />
+        </article>
+      </section>
+    </main>
+    <!-- Pied de page -->
+    <footer>
+      <p>&copy;2026 SOLÈNE AVRIL</p>
+      <p>Exercice HTML - CSS</p>
+      <p><strong>Amir Riazi</strong></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
