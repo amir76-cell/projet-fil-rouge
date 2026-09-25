@@ -39,4 +39,4 @@ En plus du rendu demandé, j'ai ajouté un petit script JavaScript pour rendre l
 
 ## Hébergement
 
-Le site est hébergé via GitHub Pages :https://amir76-cell.github.io/projet-fil-rouge/
+Le site est hébergé via GitHub Pages : "https://amir76-cell.github.io/projet-fil-rouge/"
