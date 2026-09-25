@@ -1,6 +1,7 @@
 # Projet Fil Rouge — Solène Avril
 
-Amir Hossein RIAZI
+## Amir Hossein RIAZI
+
 Portfolio de photographe réalisé en HTML / CSS, avec une touche de JavaScript en bonus. Le site reprend la maquette fournie (vues ordinateur, tablette et mobile) : un en-tête, une section de présentation avec un menu de filtres, une galerie de photos, et un pied de page.
 
 ## Langages utilisés
